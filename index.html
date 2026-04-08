@@ -1,72 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Cartoon Animation</title>
+  <title>CI/CD DevOps Project</title>
   <style>
     body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #87CEEB; /* sky blue */
+      font-family: Arial;
+      text-align: center;
+      background-color: #f5f5f5;
     }
-
-    .face {
-      width: 150px;
-      height: 150px;
-      background: yellow;
-      border-radius: 50%;
-      position: relative;
-      animation: bounce 1s infinite alternate ease-in-out;
-    }
-
-    .eye {
-      width: 20px;
-      height: 20px;
-      background: black;
-      border-radius: 50%;
-      position: absolute;
-      top: 40px;
-    }
-
-    .eye.left {
-      left: 35px;
-    }
-
-    .eye.right {
-      right: 35px;
-    }
-
-    .mouth {
-      width: 60px;
-      height: 30px;
-      border-bottom: 5px solid black;
-      border-radius: 0 0 50px 50px;
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    @keyframes bounce {
-      from {
-        transform: translateY(0);
-      }
-      to {
-        transform: translateY(-50px);
-      }
+    img {
+      width: 300px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
 
-  <div class="face">
-    <div class="eye left"></div>
-    <div class="eye right"></div>
-    <div class="mouth"></div>
-  </div>
+  <h1>🚀 DevOps CI/CD Project</h1>
+  <p>Auto deployed using GitHub Actions + AWS S3</p>
+
+  <h2>😂 DevOps Memes</h2>
+
+  <img src="meme1.png" alt="DevOps Meme 1">
+  <img src="meme2.png" alt="DevOps Meme 2">
+  <img src="meme3.png" alt="DevOps Meme 3">
 
 </body>
 </html>
